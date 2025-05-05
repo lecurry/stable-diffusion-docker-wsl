@@ -1,7 +1,6 @@
 services:
   sd:
     image: sd:latest
-    #image: sd-auto:79
     environment:
       - CLI_ARGS=--allow-code --medvram --xformers --enable-insecure-extension-access --api
     volumes:

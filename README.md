@@ -2,13 +2,11 @@
 
 Recommend using Thunder to download to the corresponding directory
 
-wget -O ./data/models/Stable-diffusionv1-5-pruned-emaonly.ckpt https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt
-
 wget -O ./data/models/RealESRGAN/RealESRGAN_x4plus.pth https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
 
 wget -O ./data/models/VAE/vae-ft-mse-840000-ema-pruned.ckpt https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
 
-wget -O ./data/models/Stable-diffusion/sd-v1-5-inpainting.ckpt https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
+wget -O ./data/models/Stable-diffusion/v2-1_512-ema-pruned.ckpt https://huggingface.co/stabilityai/stable-diffusion-2-1-base/resolve/main/v2-1_512-ema-pruned.ckpt
 
 wget -O ./data/models/GFPGAN/GFPGANv1.4.pth https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
 
