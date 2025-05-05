@@ -1,0 +1,18 @@
+services:
+  sd:
+    image: sd:latest
+    #image: sd-auto:79
+    environment:
+      - CLI_ARGS=--allow-code --medvram --xformers --enable-insecure-extension-access --api
+    volumes:
+      - ./data:/data
+      - ./data/images:/output
+    ports:
+      - "7860:7860"
+    deploy:
+      resources:
+        reservations:
+          devices:
+              - driver: nvidia
+                device_ids: ['0']
+                capabilities: [compute, utility]
