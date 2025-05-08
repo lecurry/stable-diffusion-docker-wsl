@@ -21,7 +21,6 @@ wget -O ./data/models/LDSR/model.ckpt https://heibox.uni-heidelberg.de/f/578df07
 docker-coompose up -d
 
 http://127.0.0.1:7860
-![compose](./images/compose.png)
 ![web](./images/web.png)
 ![wsl](./images/docker-wsl.png)
 
