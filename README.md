@@ -24,3 +24,7 @@ http://127.0.0.1:7860
 ![compose](./images/compose.png)
 ![web](./images/web.png)
 ![wsl](./images/docker-wsl.png)
+
+## 模型私有化生产力需求联系
+
+QQ:419192917
